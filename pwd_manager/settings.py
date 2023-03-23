@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'pwd_manager.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd9qrjbjslfkhq',
+        'HOST': 'ec2-54-73-22-169.eu-west-1.compute.amazonaws.com',
+        'USER': 'nphyzfgtbmcfnf',
+        'PASSWORD': 'dcba5f2a24c4bf07338d1b50a8045c7d3305a645bb45dbeff5ddcd41a7ce75d0',
+        'PORT': 5432
     }
 }
 

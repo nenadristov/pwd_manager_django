@@ -1,0 +1,1 @@
+web: gunicorn pwd_manager.wsgi --log-file-
